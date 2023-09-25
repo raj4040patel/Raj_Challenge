@@ -1,0 +1,11 @@
+access_key        = "xxxxxxxxxx"
+secret_key        = "xxxxxxxxxx"
+region_Name       = "ap-south-1"
+server_instance   = "t2.micro"
+instance_ami      = "Ubantu-ami"
+create_vpc        = true
+vpc_name          = "Custom-vpc"
+vpc_cidrblock     = "10.0.0.0/16"
+subnet            = 2
+subnet1_cidrblock = "10.0.1.0/24"
+subnet2_cidrblock = "10.0.2.0/24"
